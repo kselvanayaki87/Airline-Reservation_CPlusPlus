@@ -181,6 +181,5 @@ void seatReserve()
 	ticketInfo.display();
 	passengerInfo.displayPassengerSummary();
 	flight.displayFlightSummary();
-
 }
 
