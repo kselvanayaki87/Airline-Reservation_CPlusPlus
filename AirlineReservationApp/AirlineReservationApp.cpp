@@ -7,9 +7,7 @@
 #include "TicketInfo.h"
 #include "AirlineReservationApp.h"
 
-
 using namespace std;
-
 
 int displayMenu();
 void flightSchedule();
