@@ -16,6 +16,8 @@ Airline Reservation
 5. User ticket information
 0. Exit
 
+Details of the menu options:
+
 1. Allows user to reserve a seat based on the fligt number and date entered as input. A seat is reserverd based on the seat and flight availability.
 2. Displays flight schedule to the user. Date and flight number is expected as input from user
 3. Displays passenger information with the ticket booked taking name as input
