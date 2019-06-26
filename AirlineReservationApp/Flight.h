@@ -14,6 +14,8 @@ public:
 	string mDestination;
 	string mDepature;
 	string mDate;
+	string mdeptime;
+	string marrtime;
 	vector<string> unreservedSeats;
 
 	string getSeat();

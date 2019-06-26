@@ -11,6 +11,9 @@ Database::Database()
 	flight1.mDepature = "Seattle";
 	flight1.mDestination = "Las Vegas";
 	flight1.mDate = "10102019";
+	flight1.mdeptime = "10:00 AM";
+	flight1.marrtime = "1:00 PM";
+
 	flights.push_back(flight1);
 
 	//#2
@@ -18,6 +21,8 @@ Database::Database()
 	flight2.mDepature = "Seattle";
 	flight2.mDestination = "New York";
 	flight2.mDate = "10102019";
+	flight2.mdeptime = "11:00 AM";
+	flight2.marrtime = "7:00 PM";
 	flights.push_back(flight2);
 
 	//#3
@@ -25,6 +30,8 @@ Database::Database()
 	flight3.mDepature = "Seattle";
 	flight3.mDestination = "Portland";
 	flight3.mDate = "10102019";
+	flight3.mdeptime = "1:00 PM";
+	flight3.marrtime = "5:00 PM";
 	flights.push_back(flight3);
 
 	//#4
@@ -32,6 +39,8 @@ Database::Database()
 	flight4.mDepature = "Seattle";
 	flight4.mDestination = "Las Vegas";
 	flight4.mDate = "11112019";
+	flight4.mdeptime = "7:00 PM";
+	flight4.marrtime = "12:00 AM";
 	flights.push_back(flight4);
 
 	//#5
@@ -39,6 +48,9 @@ Database::Database()
 	flight5.mDepature = "Seattle";
 	flight5.mDestination = "Las Vegas";
 	flight5.mDate = "12122019";
+	flight5.mdeptime = "10:00 PM";
+	flight5.marrtime = "1:00 AM";
+
 	flights.push_back(flight5);
 }
 
@@ -46,11 +58,14 @@ void Database::displayFlightSchedule(const int& flightno, const string& date)
 {
 	for (Flight flight : flights) {
 		if ((flight.mDate == date) && (flight.mFlightno == flightno)) {
-			
-			cout << endl << "Depature: " << flight.mDepature << endl;
-			cout << "Destination: " << flight.mDestination << endl;
+			cout << endl << "Depature City: " << flight.mDepature << endl;
+			cout << "Arrival City: " << flight.mDestination << endl;
+			cout << "Departure Time: " << flight.mdeptime << endl;
+			cout << "Arrival Time: " << flight.marrtime << endl;
+			return;
 		}
 	}
+	cout << endl << "No flights available" << endl;
 }
 
 void Database::displayFlightDetails(const int& flightno, const string& date)
