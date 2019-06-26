@@ -21,7 +21,6 @@ class Database
 		 PassengerInfo getPassengerInfo(const string& firstname, const string& lastname);
 		 PassengerInfo getPassengerInfo(const int& passengerId);
 		 TicketInfo getTicketInfo(const int& ticketId);
-
 };
 
 
