@@ -16,8 +16,11 @@ Flight::Flight()
 
 string Flight::getSeat()
 {
-	string seat = unreservedSeats.front();
-	unreservedSeats.erase(unreservedSeats.begin());
+	string seat = unreservedSeats.back();
+	unreservedSeats.pop_back();
+	//string seat = unreservedSeats.front();
+	//unreservedSeats.erase(unreservedSeats.begin());
+	//return seat;
 	return seat;
 }
 

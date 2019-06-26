@@ -71,9 +71,7 @@ void Database::displayFlightSchedule(const int& flightno, const string& date)
 void Database::displayFlightDetails(const int& flightno, const string& date)
 {
 	for (Flight flight : flights) {
-		if ((flight.mDate == date) && (flight.mFlightno == flightno)) {
-
-			cout << "Total No. of seats available: " << flight.unreservedSeats.size() << endl;
+		if ((flight.mDate == date) && (flight.mFlightno == flightno)) {			cout << "Total No. of seats available: " << flight.unreservedSeats.size() << endl;
 		}
 	}
 }
