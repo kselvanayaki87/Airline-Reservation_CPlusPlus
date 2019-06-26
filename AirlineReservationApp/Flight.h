@@ -4,7 +4,7 @@
 #include <vector>
 
 using namespace std;
-static int kFlightId = 1;
+static int kFlightId = 111;
 
 class Flight {
 public:
