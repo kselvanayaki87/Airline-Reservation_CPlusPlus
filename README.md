@@ -28,7 +28,7 @@ Note: Total number of flights available = 5 and the initiated in the program.
 Future updates:
 
 Refactoring code redundancy.
-Error handling for negative scenarios
+Error handling for negative scenarios.
 Improving commenting structure.
-Improving functionalities
+Improving functionalities.
 Using pointers and objects wherever applicable 
