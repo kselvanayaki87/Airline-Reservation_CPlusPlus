@@ -25,7 +25,7 @@ Details of the menu options:
 5. Displays User ticket information taking Ticket Id as input. The details includes name, Flight no, Seat ID, Travel Date, Departure and Arrival cities, Departure and Arrival time
 6. Exits from the program
 
-Note: Total number of flights available = 5 and the initiated in the program. 
+Note: Total number of flights available = 5 and they are initiated in the program. 
 
 Future updates:
 
